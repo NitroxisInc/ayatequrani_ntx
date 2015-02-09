@@ -98,31 +98,7 @@ class NTX_plugin {
     public function install ()
     {
         global $wpdb;
-
-        foreach ($quran_db as $value) {
-            # code...
-        }
-        $quran['en'] = $wpdb->prefix . $this->token . "_quran_en";
-        $quran['en_sql'] = "DROP TABLE IF EXISTS `". $quran['en'] ."`;
-                            CREATE TABLE IF NOT EXISTS `". $quran['en'] ."` (
-                              `ID` int(11) NOT NULL AUTO_INCREMENT,
-                              `sura` int(3) NOT NULL DEFAULT '0',
-                              `aya` int(3) NOT NULL DEFAULT '0',
-                              `text` text NOT NULL,
-                              PRIMARY KEY (`index`)
-                            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;";
-        
-        $quran['ar'] = $wpdb->prefix . $this->token . "_quran_ar";
-        $quran['ar_sql'] = "DROP TABLE IF EXISTS `". $quran['ar'] ."`;
-                            CREATE TABLE IF NOT EXISTS `". $quran['ar'] ."` (
-                              `ID` int(11) NOT NULL AUTO_INCREMENT,
-                              `sura` int(3) NOT NULL DEFAULT '0',
-                              `aya` int(3) NOT NULL DEFAULT '0',
-                              `text` text NOT NULL,
-                              PRIMARY KEY (`index`)
-                            ) ENGINE=MyISAM  DEFAULT CHARSET=utf8;";
-
-        // error_log($english);
+        error_log("Installed the Plugin Successfully");
     }
 
     /*
@@ -131,7 +107,6 @@ class NTX_plugin {
     public function uninstall ()
     {
         error_log("Uninstalled the Plugin");
-        // file_put_contents("c:\\wamp\\www\\data.txt", "Uninstalled the Plugin", FILE_APPEND);
     }
 
     // Do not edit these
