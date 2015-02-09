@@ -1,6 +1,6 @@
-=== WordPress Plugin Template ===
-Contributors: hlashbrooke
-Donate link: http://www.hughlashbrooke.com/donate
+=== Nitroxis Plugin Template ===
+Contributors: hammad
+Donate link: http://nitroxis.com/donate
 Tags: wordpress, plugin, template
 Requires at least: 3.9
 Tested up to: 4.0
@@ -16,7 +16,7 @@ This is where you can give a much longer description of your plugin that you can
 
 == Installation ==
 
-Installing "WordPress Plugin Template" can be done either by searching for "WordPress Plugin Template" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
+Installing "Nitroxis Plugin" can be done either by searching for "Nitroxis Plugin" via the "Plugins > Add New" screen in your WordPress dashboard, or by using the following steps:
 
 1. Download the plugin via WordPress.org
 1. Upload the ZIP file through the 'Plugins > Add New > Upload' screen in your WordPress dashboard
@@ -24,14 +24,14 @@ Installing "WordPress Plugin Template" can be done either by searching for "Word
 
 == Frequently Asked Questions ==
 
-= What is the plugin tepmlate for? =
+= What is the plugin for? =
 
-This plugin template is designed to help you get started with any new WordPress plugin.
+This plugin template is designed to 
 
 == Changelog ==
 
 = 1.0 =
-* 2012-12-13
+* 2015-02-15
 * Initial release
 
 == Upgrade Notice ==

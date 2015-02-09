@@ -1,6 +1,6 @@
 <?php
 /*
- * Plugin Name: Ayat e Qurani
+ * Plugin Name: Nitroxis Plugin
  * Version: 1.0
  * Plugin URI: http://nitroxis.com/
  * Description: Include a single or multiple ayats in your content with an easy shortcode e.g. <strong>[quran ayat="112" surah="2"]</strong>
@@ -9,7 +9,7 @@
  * Requires at least: 3.4
  * Tested up to: 4.1
  *
- * Text Domain: ayatequrani_ntx
+ * Text Domain: plugin_ntx
  * Domain Path: /lang/
  *
  * @package WordPress
@@ -19,7 +19,7 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit;
 
-$token = "ayatequrani_ntx";
+$token = "plugin_ntx";
 $version = "1.0";
 // Load plugin class files
 require_once('inc/plugin.class.php');

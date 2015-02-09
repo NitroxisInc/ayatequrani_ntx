@@ -10,7 +10,7 @@ Just a basic start to make my own plugin
 
 ## How do I use it?
 
-Just copy and rename two string in main plugin file
+Just copy and rename two string in main plugin_ntx.php
 
 ## This template is amazing! How can I ever repay you?
 
